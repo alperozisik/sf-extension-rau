@@ -1,0 +1,30 @@
+{
+  "name": "sf-extension-rau",
+  "version": "1.0.0",
+  "description": "Smartface Extension for Remote App Update (RAU)",
+  "main": "rau.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperozisik/sf-extension-rau.git"
+  },
+  "keywords": [
+    "Remote",
+    "App",
+    "Update",
+    "Smartface",
+    "RAU"
+  ],
+  "author": "Alper Ozisik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alperozisik/sf-extension-rau/issues"
+  },
+  "homepage": "https://github.com/alperozisik/sf-extension-rau#readme",
+  "peerDependencies": {
+    "sf-extension-alert": "git+https://github.com/alperozisik/sf-extension-alert.git",
+    "sf-extension-permission": "git+https://github.com/alperozisik/sf-extension-permission.git"
+  }
+}
